@@ -98,6 +98,8 @@ npm run dev
 
 
 Then open your browser at http://localhost:5173
+
+or you can open it by this link : https://evaluasi-pekan1-bulan3-pearl.vercel.app
  🎉
 
 
@@ -207,6 +209,8 @@ npm run dev
 
 
 Lalu buka di browser: http://localhost:5173
+
+atau buka di link vercel berikut : https://evaluasi-pekan1-bulan3-pearl.vercel.app
  🎉
 
 👤 Pembuat
