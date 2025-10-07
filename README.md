@@ -85,7 +85,7 @@ Media queries ensure layout responsiveness.
 
 🛠️ How to Run the Project
 # 1. Clone the repository
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/Loetphij/evaluasi-pekan1-bulan3
 
 # 2. Navigate into the folder
 cd react-todo-app
@@ -194,7 +194,7 @@ Desain sudah responsif untuk berbagai ukuran layar.
 
 🛠️ Cara Menjalankan Proyek
 # 1. Clone repositori
-git clone https://github.com/username/react-todo-app.git
+git clone https://github.com/Loetphij/evaluasi-pekan1-bulan3
 
 # 2. Masuk ke folder proyek
 cd react-todo-app
