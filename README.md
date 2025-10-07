@@ -46,17 +46,17 @@ src/
 
 All main states are stored in the `App` component:
 
-```js
+```jsx
 const [todos, setTodos] = useState([]);
 const [filter, setFilter] = useState("all");
-
+```
 Then they are passed down via props to child components for better separation of concerns.
 For example:
-
+```jsx
 <TodoForm addTodo={addTodo} />
 <TodoFilter currentFilter={filter} setFilter={setFilter} />
 <TodoList todos={filteredTodos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
-
+```
 Props Usage
 
 Each child component uses props effectively:
@@ -104,14 +104,9 @@ Then open your browser at http://localhost:5173
 Author:
 
 Muhammad Luthfi Aziz
-📚 Student Developer | 🇮🇩 Indonesia
-
-
+📚 Student Developer 
 
 # BAHASA INDONESIA
-
-Siap 😎 ini versi README.md dalam Bahasa Indonesia, biar lebih cocok buat tugas atau penilaian dari guru/dosen.
-Bahasanya tetap formal tapi tetap enak dibaca.
 
 # 📝 Aplikasi Todo React
 
@@ -160,19 +155,19 @@ src/
 
 State utama disimpan di dalam komponen `App`:
 
-```js
+```jsx
 const [todos, setTodos] = useState([]);
 const [filter, setFilter] = useState("all");
-
+```
 
 State ini kemudian dikirim ke komponen anak melalui props, agar logika dan tampilan tetap terpisah dengan rapi.
 
 Contohnya:
-
+```jsx
 <TodoForm addTodo={addTodo} />
 <TodoFilter currentFilter={filter} setFilter={setFilter} />
 <TodoList todos={filteredTodos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
-
+```
 💡 Penggunaan Props
 
 Setiap komponen anak menggunakan props sesuai fungsinya:
